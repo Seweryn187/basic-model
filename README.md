@@ -8,3 +8,7 @@ Basic model of angular web app, which contains:
 - environment
 - eslint rules
 - test frameworks
+
+######################
+
+After downloading it is recommended to update npm
