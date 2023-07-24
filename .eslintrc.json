@@ -73,15 +73,6 @@
             }
           }
         ],
-        "@typescript-eslint/typedef": [
-          "error",
-          {
-            "memberVariableDeclaration": true,
-            "call-signature": true,
-            "parameter": true,
-            "variableDeclarationIgnoreFunction": true
-          }
-        ],
         "@typescript-eslint/member-delimiter-style": [
           "error",
           {

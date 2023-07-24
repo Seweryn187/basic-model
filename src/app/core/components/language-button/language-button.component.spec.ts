@@ -8,7 +8,7 @@ describe('LanguageButtonComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [LanguageButtonComponent]
+      declarations: [LanguageButtonComponent],
     });
     fixture = TestBed.createComponent(LanguageButtonComponent);
     component = fixture.componentInstance;
