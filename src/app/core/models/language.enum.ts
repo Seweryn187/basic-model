@@ -1,6 +1,6 @@
 export const ALL_LANGUAGES = {
-  en: { name: 'English (UK)', nameShort: 'EN', locale: 'en-US' },
-  pl: { name: 'Polski', nameShort: 'PL', locale: 'pl-PL' },
+  en: { name: 'English (UK)', nameShort: 'en', locale: 'en-US' },
+  pl: { name: 'Polski', nameShort: 'pl', locale: 'pl-PL' },
 } as const;
 
 export const LANGUAGE_KEY = 'lang';
