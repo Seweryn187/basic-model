@@ -21,14 +21,12 @@ export class LanguageService {
   }
 
   public setLanguage(lang: LOCALE_KEY): void {
-    console.log('Language service:', lang);
     localStorage.setItem(LANGUAGE_KEY, lang);
     this.translate.use(lang);
 
   }
 
   public init(): LOCALE_KEY {
-    console.log('INIT');
     LanguageService.LanguageChange$ = this.translate.onLangChange;
     return this._currentLanguage;
   }
