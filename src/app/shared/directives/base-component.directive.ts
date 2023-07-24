@@ -9,8 +9,10 @@ export abstract class BaseComponent implements OnInit, AfterViewInit, OnDestroy 
     this.destroyed = new Subject<void>();
   }
 
+  // eslint-disable-next-line @angular-eslint/no-empty-lifecycle-method
   public ngOnInit(): void {}
 
+  // eslint-disable-next-line @angular-eslint/no-empty-lifecycle-method
   public ngAfterViewInit(): void {}
 
   public ngOnDestroy(): void {
