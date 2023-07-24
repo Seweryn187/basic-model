@@ -1,0 +1,3 @@
+<select name="languages"(click)="click($event)" [value]="language">
+  <option *ngFor="let item of LANGUAGES | keyvalue" [value]="item.key">{{ item.value.nameShort }}</option>
+</select>
