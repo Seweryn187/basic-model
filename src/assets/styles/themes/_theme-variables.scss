@@ -1,0 +1,10 @@
+@import 'src/styles/themes/_light-theme.scss';
+
+$default-app-theme: $light-app-theme;
+
+@mixin theme-colors($theme) {
+  @each $colorName, $color-value in $default-app-theme {
+    $color: map-get($theme, #{$colorName});
+    --app-#{$colorName}: #{$color};
+  }
+}

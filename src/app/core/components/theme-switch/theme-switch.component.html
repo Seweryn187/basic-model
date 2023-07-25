@@ -1,0 +1,3 @@
+<button *ngFor="let item of THEMES | keyvalue" [value]="item.key" (click)="changeTheme(item.value)">
+  {{ item.key | uppercase }}
+</button>

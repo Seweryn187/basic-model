@@ -1,0 +1,14 @@
+// THEMING START
+
+@import 'styles/themes/light-theme';
+@import 'styles/themes/dark-theme';
+@import 'styles/_theme-variables';
+
+// themes classes
+.light_theme {
+  @include theme-colors($light-app-theme);
+
+}
+.dark_theme {
+  @include theme-colors($dark-app-theme);
+}
