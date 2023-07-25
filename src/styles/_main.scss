@@ -1,8 +1,8 @@
 // THEMING START
 
-@import 'styles/themes/light-theme';
-@import 'styles/themes/dark-theme';
-@import 'styles/_theme-variables';
+@import './themes/light-theme.scss';
+@import './themes/dark-theme.scss';
+@import './themes/_theme-variables.scss';
 
 // themes classes
 .light_theme {
